@@ -5,7 +5,7 @@ export default class FirstScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#C62828' }}>
-        <Text>First Screen</Text>
+        <Text style={{color: 'white'}}>First Screen</Text>
       </View>
     );
   }
